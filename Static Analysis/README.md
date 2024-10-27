@@ -1,4 +1,4 @@
-# Static Analysis
+# Static Analysis using Sonar Qube
 
 ## Description
 
