@@ -64,6 +64,7 @@
   openssl aes-256-cbc -a -pbkdf2 -iter <iterations-count> -in <file-location-for-the-file-to-be-encrypted> -out <encrypted-file-name>
 ```
 (NOTE: different iteration count have different encrypted content)
+(NOTE: ___In OpenSSL, if you don’t specify the iteration count with the -iter option while using -pbkdf2, the default iteration count is 10,000. ___)
 
 * and for decrypting the -iter encrypted files execute
 ```bash
