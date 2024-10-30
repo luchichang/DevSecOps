@@ -69,10 +69,23 @@
 ```bash
    openssl aes-256-cbc -a -d -iter <iteration-count> -in <file-location/filename-of-the-encrypt-file> -out <decrypted-output-file-name>
 ```
+
+* Explore the cipher algorithms available with openssl by typing 
+    ```bash
+       openssl enc --list
+    ```
+
 ## Output
 
 ### text file befor encryption
+
 ![txt file](assets/image.png)
 
 ### text file after aes-256-cbc cipher encryption 
+
 ![encrypted txt file](assets/image-2.png)
+
+### comparing the openssl with different iter count
+
+![different iter count](assets/image5.png)
+
