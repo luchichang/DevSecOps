@@ -1,9 +1,9 @@
 # Dynamic Application Security Testing (DAST): Performing Dynamic Analysis using ___OWASP ZAP___ tool
 
 ## Description
-    * One of the primary goal for the developer is to __build an Highly Secure application__ to meet the goal the development team often need to review and test their code comprehensively
+    * One of the primary goal for the developer is to **build an Highly Secure application** to meet the goal the development team often need to review and test their code comprehensively
     * Dynamic Code Analysis is one of the solution for building the secure application
-    * In this project we will be looking on to how to install, configure and perform dynamic analysis to develop highly secure application using __OWASP ZAP__ tool
+    * In this project we will be looking on to how to install, configure and perform dynamic analysis to develop highly secure application using **OWASP ZAP** tool
 
 ## Objective
 
@@ -56,3 +56,4 @@ INFO: ZAP will now start its crawling activity of the site and builds a sitemap,
 NOTE: As a developer, our taks is to look up the vulnerability and look at each URL listed as being vulnerable, and then fix the code in vulnerabilites each one by one.
 
 NOTE: If you run a Dynamic Security Testing (DAST) tool early in your development lifecycle, your list probably won't get as big as this example. Had DAST been done earlier in development, there may not have been nine violations of X-Content-Type-Options Header Missing or Cross-Domain Misconfiguration.
+
