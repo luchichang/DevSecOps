@@ -1,0 +1,1 @@
+# Dynamic Application Security Testing (DAST): Performing Dynamic Analysis using ___OWASP ZAP___ tool
