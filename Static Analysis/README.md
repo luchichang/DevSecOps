@@ -2,11 +2,12 @@
 
 ## Description
      Static Analysis is a debugging method that automatically inspects source code before execution.
-     Install, configure the sonarqube for static analysis of the project code.
+     In this Project we will be Install, configure the sonarqube and perform static analysis to the project code.
 
 ## Pre-requisite
 * Static Application Security Testing (SAST)
 * Docker Network
+* Docker Volumes
 
 
 ### Sonar Qube Setup example
