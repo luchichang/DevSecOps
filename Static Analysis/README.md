@@ -2,11 +2,12 @@
 
 ## Description
      Static Analysis is a debugging method that automatically inspects source code before execution.
-     Install, configure the sonarqube for static analysis of the project code.
+     In this Project we will be Install, configure the sonarqube and perform static analysis to the project code.
 
 ## Pre-requisite
 * Static Application Security Testing (SAST)
 * Docker Network
+* Docker Volumes
 
 
 ### Sonar Qube Setup example
@@ -40,7 +41,7 @@
 ```
 * create the Sonarqube server container and attach it to the postgres database container
 ```bash
-  
+   docker run -d --name sonarqube -p 9000:9000 -e sonar.jdbc.url=jdbc:postgresql://postgres/postgres -e sonar.jdbc.username=root -e sonar.jdbc.password=Test12345 --network mynet sonarqube
 ```
 NOTE: here in the above command environment variable1 specifies the __jdbc url__ that sonarqube should use to connect to the PostgreSQL Database
 2nd & 3rd variable for Providing Authentication to the database 
